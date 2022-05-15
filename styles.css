@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+
+h1{
+  margin: auto;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bigger {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, #cbce91ff, #ea738dff);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainScreen {
+  width: 30vw;
+  height: 70vh;
+  /* border: 3px solid black; */
+  box-shadow: 10px 10px rgb(195, 121, 133);
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(208, 195, 220);
+}
+.buttonClass{
+   font-family: 'Roboto', sans-serif;
+}
+
+.displayResult {
+  width: 100%;
+  background-color: black;
+  color: whitesmoke;
+  height: 20%;
+  display: flex;
+  justify-content: right;
+  padding-right: 20px;
+  align-items: center;
+  font-size: 3rem;
+}
+.displayKeys {
+  display: grid;
+  height: 80%;
+  grid-template-columns: repeat(4, 1fr);
+}
+.displayKeys > button{
+    font-weight: bold;
+    font-size: 2rem;
+}
+#classAC {
+  grid-column: 1 / 3;
+  background-color: #c1e39f;
+}
+#classEqual {
+  grid-column: 3 / 5;
+  background-color: #c1e39f;
+}

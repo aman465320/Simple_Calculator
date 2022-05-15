@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator 
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="bigger">
+        <h1 >Welcome to Javascript Calculator <i class="fa-solid fa-calculator"></i>
+        </h1>
+        <div class="mainScreen">
+            <div class="displayResult" id="result">0</div>
+            <div class="displayKeys">
+                <button class="buttonClass" id="classAC" onclick="AC()">AC</button>
+                <button class="buttonClass" id="classDEL" onclick="DEL()">DEL</button>
+                <button class="buttonClass" id="classSlash" onclick="Slash()">/</button>
+                <button class="buttonClass" id="class1" onclick="One()">1</button>
+                <button class="buttonClass" id="class2" onclick="Two()">2</button>
+                <button class="buttonClass" id="class3" onclick="Three()">3</button>
+                <button class="buttonClass" id="classStar" onclick="Star()">*</button>
+                <button class="buttonClass" id="class4" onclick="Four()">4</button>
+                <button class="buttonClass" id="class5" onclick="Five()">5</button>
+                <button class="buttonClass" id="class6" onclick="Six()">6</button>
+                <button class="buttonClass" id="classAdd" onclick="Add()">+</button>
+                <button class="buttonClass" id="class7" onclick="Seven()">7</button>
+                <button class="buttonClass" id="class8" onclick="Eight()">8</button>
+                <button class="buttonClass" id="class9" onclick="Nine()">9</button>
+                <button class="buttonClass" id="classSub" onclick="Sub()">-</button>
+                <button class="buttonClass" id="classDot" onclick="Dot()">.</button>
+                <button class="buttonClass" id="class0" onclick="Zero()">0</button>
+                <button class="buttonClass" id="classEqual" onclick="Equal()">=</button>
+            </div>
+
+        </div>
+        <h1>Made by Aman Mathur</h1>
+    </div>
+
+    <script src="calculator.js"></script>
+</body>
+
+</html>
